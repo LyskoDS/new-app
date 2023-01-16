@@ -7,7 +7,7 @@ function nextInLine(arr, item) {
 }
 
 // Setup
-let testArr = [1, 2, 3, 4, 5];
+let testArr = [1, 2, 3, 4, 5, 6];
 
 // Display code
 console.log("Before: " + JSON.stringify(testArr));
