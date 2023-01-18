@@ -5,4 +5,8 @@ export const Post = () => {
     return (
 
     )
+    export const Post = () => {//лишнее
+        return (//лишнее
+
+        )//лишнее
 }
