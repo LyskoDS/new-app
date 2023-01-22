@@ -14,6 +14,15 @@ width: 100px; - ширина объекта
 
 hsl(180, 80%, 25%); - регулировка оттенка по насыщенности(s) и яркости(l)
 
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...); - градиент перехода цвета
+
+background: repeating-linear-gradient(   - "плосатый" градиент
+                45deg,
+                yellow 0px,
+                yellow 40px,
+                black 40px,
+                black 80px
+
 box-shadow: 0 10px 20px rgba(0,0,0,0.19) - добавление тени к элементу;
 opacity: 0.7; - устанавливает прозрачность элемента (от 0 - прозрачный до 1 - непрозрачный));
 
