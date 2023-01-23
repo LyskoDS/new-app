@@ -23,6 +23,8 @@ background: repeating-linear-gradient(   - "плосатый" градиент
                 black 40px,
                 black 80px
 
+background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png"); - делает фон картинкой из ссылки
+
 box-shadow: 0 10px 20px rgba(0,0,0,0.19) - добавление тени к элементу;
 opacity: 0.7; - устанавливает прозрачность элемента (от 0 - прозрачный до 1 - непрозрачный));
 
@@ -50,3 +52,7 @@ float: right; - справа
 z-index: 2; - устанавливает приоритет объекта при наложении, чем выше число тем первее будет объект
 
 margin: auto; - автоматически центрирует по горизонтали
+
+transform: scale(1.5); - увеличивает размер элемента (в 1.5 раз)
+transform: skewX(24deg); - наклон объекта по горизонтали
+transform: skewY(24deg); - наклон объекта по вертикали
