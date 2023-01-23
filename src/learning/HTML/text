@@ -63,6 +63,8 @@ transform: rotate(-45deg); - поворачивает объект
 animation-name: rainbow; - анимация с именем
         animation-duration: 4s; - длительность анимации
         animation-iteration-count: infinite; - количество циклов анимации
+        animation-timing-function: linear; - скорость анимации (linear - постоянная скорость анимации, ease-out - быстро затем медленно, ease-in - медленно затем быстро)
+        animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75); - изменение анимации по графику
     }
         @keyframes rainbow { - параметры анимации
             0% {
