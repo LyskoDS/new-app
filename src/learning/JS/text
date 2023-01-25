@@ -32,5 +32,8 @@ const a = myArray.shift(); - возвращает удаленный первы�
 myArray.unshift([2, 1]); - добавляет в начало массива "myArray" подмассив при помощи команды .unshift()
 
 
-Understanding Boolean Values
 
+.hasOwnProperty(propname) - определяет есть ли в объекте это свойство
+
+
+Iterate with JavaScript While Loops
