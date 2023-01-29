@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body {
+    background: repeating-linear-gradient(45deg, #cccccc 0px, whitesmoke 40px, #cccccc 80px);;
+  }
+  #title {
+
+  }
+  #description {
+
+  }
+  #survey-form {
+
+  }
+</style>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">What kind of music do you like?</h1>
+<p id="description">Take the survey what kind of music do you like</p>
+<form id="survey-form">
+  <label id="name-label" for="name">Username</label>
+  <input id="name" type="text" placeholder="Your First Name" required><br>
+  <label id="email-label" for="email">Email address</label>
+  <input id="email" type="email" placeholder="Your email" required><br>
+  <label id="number-label" for="number">Your age</label>
+  <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"><br>
+  <select id="dropdown" required>
+    <option value="guitar">Guitar</option>
+    <option value="drums">Drums</option>
+    <option value="piano">Piano</option>
+  </select><br>
+  <label>
+    <input name="instrument" value="Guitar" id="guitar" type="radio">Guitar
+    <input name="instrument" value="Drums" id="drums" type="radio">Drums
+
+  </label><br>
+  <label>
+    <input type="checkbox" name="qwe" value="Guitar"> Guitar
+    <input type="checkbox" name="qwe" value="Drums"> Drums
+  </label><br>
+  <p>May be you want to comment?</p>
+  <textarea id="textarea" class="input-textarea" name="comment" placeholder="comment here..."></textarea><br>
+  <button type="submit" id="submit" class="submit-button">Submit</button>
+</form>
+
+</body>
+</html>
