@@ -6,4 +6,4 @@ function findMultiples(integer, limit) {
     }
     return arr;
 }
-console.log(findMultiples(11,54));
+console.log(findMultiples(12.32,453));
