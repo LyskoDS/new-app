@@ -1,13 +1,9 @@
-function _if(bool, func1, func2) {
-    function a(func1) {
-    const b = "True";
-    return b;
+function getSumOfDigits(integer) {
+    let a = integer.split(" ").join(" ");
+    for (let i = 0; i < integer.length; i++) {
+        return
     }
+    return sum;
 }
 
-    if (bool = "True") {
-        return func1;
-    } else {
-        return func2;
-    }
-    return 0;
+console.log(getSumOfDigits(123));
